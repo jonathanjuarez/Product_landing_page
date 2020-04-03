@@ -1,0 +1,177 @@
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+.fullscreen {
+  position:fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+    }
+ul{
+	list-style: none;
+}
+a{
+text-decoration: none;
+}
+.container{
+	width:80%;
+	margin:0 auto;
+}
+body{
+	font-family: sans-serif;
+	line-height: 1.5;
+}
+header{
+	padding:1.1rem 3rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color:black;
+	position: fixed;
+	max-width:100%;
+	width:1500px;
+}
+#header-img{
+	width:15rem;
+	height:2rem;
+	margin-left: -1rem;
+}
+#nav-bar ul{
+	display: flex;
+}
+
+#nav-bar ul li{
+	margin-left:2rem;
+}
+a{
+	color:yellow;
+}
+@media screen and (max-width:650px){
+	header{
+		flex-direction:column;
+		flex-wrap:wrap;
+	}}
+.subscribe{
+	text-align: center;
+	margin:0 0;
+	background-image: url(guitar3.jpg);
+	width:100%;
+	height:420px;
+
+}
+h2{
+	font-size: 35px;
+	padding-top: 8rem;
+	color:white;
+
+	
+}
+#email{
+	width:16rem;
+	padding:0.25rem;
+	margin-top: 12px;
+	margin-bottom: 10px;
+}
+#submit{
+	padding:0.25rem;
+	width:8rem;
+	margin-top:10px;
+	font-weight: bold;
+	background: yellow;
+	font-size:15px;
+	margin-bottom: 30px;
+}
+#submit:hover{
+	cursor:pointer;
+	background-color:#ee4b08;
+}
+.featured-wrapper{
+	display: flex;
+	align-items: center;
+	margin-top:2rem;
+	margin-bottom: 3rem;
+}
+.featured-icon{
+	font-size: 40px;
+	width:50px;
+	height:60px;
+	color:#1F7D0C;
+}
+.featured-text{
+	margin-left: 3.5rem;
+}
+.featured-text h3{
+	font-size:1.5rem;
+}
+@media screen and (max-width:650px){
+	.featued-wrapper{
+		flex-direction:column;}
+.featured-text{
+	margin:0;
+	text-align: center;
+	}}
+#video{
+	text-align: center;
+	margin:5rem 0;
+	
+}
+iframe{
+	width:80%;
+}
+
+.pricing-wrapper{
+	display:grid;
+	grid-gap: 2rem;
+	align-items: center;
+	justify-content: center;
+	grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+	grid-auto-rows: repeat(3,300px);
+	margin-bottom: 5rem;
+}
+.pricing-box{
+	text-align: center;
+	line-height: 2.5;
+	border:1px solid black;
+}
+.pricing-box h4{
+	background:#0088CC;
+}
+.pricing-box .price{
+	font-weight: bold;
+	font-size:1.3rem;
+}
+.btn{
+	border:1px solid #F1C53E;
+	padding:0.3rem 0.5rem;
+	background-color: #F1C53E;
+	font-weight: bold;
+	color:black;
+}
+footer{
+	background: black;
+	text-align:end;
+	padding:1rem 0.5rem;
+}
+
+.footer-nav ul{
+	display: flex;
+	flex-direction: row;
+	justify-content:flex-end;
+}
+.footer-nav ul li{
+	margin-left:1.6rem;
+}
+.footer-copyright{
+	opacity:0.8;
+	color:white;
+}
